@@ -1,0 +1,125 @@
+#container {
+  background-color: #ffc700;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+#title-bar #title {
+  color: #ffffff;
+}
+
+#title-bar #project-name {
+  cursor: pointer;
+}
+
+#control-button-container #save-button {
+  width: 80px;
+  height: 35px;
+  background-color: #ffc700;
+  border-color: #ffffff;
+  border-width: 1px;
+  color: #ffffff;
+}
+
+#control-button-container #save-button span {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.topic-card-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.topic-card-container .topic-card-row {
+  flex: 1;
+  display: flex;
+}
+
+.topic-card-container .topic-card-row .topic-card {
+  flex: 1;
+  display: flex;
+  background-color: #ffffff;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.topic-card-container .topic-card-row .topic-summary-card {
+  flex: 1;
+  display: flex;
+  margin: 0px 20px;
+  flex-direction: column;
+}
+
+.topic-card-container .topic-card-row .topic-summary-card .topic-area {
+  flex: 1;
+  display: flex;
+  background-color: #ffffff;
+  margin: 0px -20px;
+  padding: 15px 20px;
+  flex-direction: column;
+}
+
+.topic-card-container .topic-card-row .topic-summary-card .summary-area {
+  flex: 2;
+  display: flex;
+  background-color: #ffffff;
+  margin: 0px -20px;
+  padding: 15px 20px;
+  flex-direction: column;
+}
+
+.topic-title-row {
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.topic-title-row .topic-badge {
+  width: 40px;
+  height: 40px;
+}
+
+.topic-title-row .topic-badge span {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.topic-title-row .topic-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#a-badge {
+  background-color: #BB0B17;
+}
+
+#b-badge {
+  background-color: #FF8A00;
+}
+
+#u-badge {
+  background-color: #3A4BE2;
+}
+
+#g-badge {
+  background-color: #5FBD00;
+}
+
+.topic-content-area {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.topic-content-area .content-textarea {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  border-color: transparent;
+}
